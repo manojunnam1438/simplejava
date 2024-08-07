@@ -19,7 +19,7 @@ jobs:
 
     # Run tests
     - name: Run tests
-      run: sh 'echo test'
+      run: echo "running unit test"
 
   deploy:
     runs-on: ubuntu-latest
